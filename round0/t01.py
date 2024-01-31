@@ -1,5 +1,9 @@
-x = int(input())
-y = int(input())
-z = int(input())
+x = input()
+y = input()
+z = input()
 
-print(x + (y * z))
+students = int(y) * int(z)
+annual_students = 12 * students
+
+total = int(x) + annual_students
+print(total)
